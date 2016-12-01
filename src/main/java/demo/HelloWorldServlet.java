@@ -10,7 +10,7 @@ public class HelloWorldServlet extends HttpServlet {
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        resp.getWriter().append("Hello, servlet");
+        resp.getWriter().append("Hello, world!");
     }
 
 }
